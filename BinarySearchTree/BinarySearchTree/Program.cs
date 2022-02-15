@@ -11,6 +11,14 @@ namespace BinarySearchTree
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Bianary search Tree Program");
+
+            BinarySearch tree = new BinarySearch();
+
+            tree.InsertNode(56);
+            tree.InsertNode(30);
+            tree.InsertNode(70);
+
+            tree.Display();
         }
     }
 }
