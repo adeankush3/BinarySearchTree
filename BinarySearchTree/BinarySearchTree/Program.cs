@@ -30,6 +30,9 @@ namespace BinarySearchTree
             tree.InsertNode(63);
 
             tree.Display();
+
+            tree.Search(63);
+
         }
     }
 }

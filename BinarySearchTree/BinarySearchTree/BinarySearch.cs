@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Graph;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -76,5 +77,35 @@ namespace BinarySearchTree
             Console.WriteLine("Elements Of Tree");
             Display(root_node);
         }
+        public void Search(int element)
+        {
+            if (root_node == null)
+            {
+                Console.WriteLine("Array is Empty.");
+            }
+
+            if (root_node.Equals(element))
+            {
+                Console.WriteLine("Match found");
+            }
+
+            if (root_node.Equals(element))
+            {
+
+                if (root_node.Right.Equals(element))
+                {
+                    Console.WriteLine("Match");
+                }
+            }
+
+            if (root_node.Equals(element))
+            {
+                if (root_node.Left.Equals(element))
+                {
+                    Console.WriteLine("Match");
+                }
+            }
+        }
+
     }
 }

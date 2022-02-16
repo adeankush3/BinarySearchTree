@@ -9,6 +9,7 @@ namespace BinarySearchTree
     public class Node
     {
         public int Element { get; set; }
+        public Node Root { get; set; }
         public Node Left { get; set; }
         public Node Right { get; set; }
 
@@ -16,5 +17,7 @@ namespace BinarySearchTree
         {
             this.Element = data;
         }
+
+        
     }
 }
